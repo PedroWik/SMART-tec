@@ -1,0 +1,31 @@
+#user_dest{
+    background-color: white;
+    border: 1px solid black;
+}
+#user_dest #img img{
+    border: 1px solid black;
+}
+#esquerda{
+    background-color: rgba(255, 255, 255, 0.866);
+}
+#direita{
+    background-color: rgba(255, 255, 255, 0.805);
+}
+.sms{
+    border: 1px solid black;
+}
+#caixa_de_texto{
+    background-color: rgb(146, 105, 11);
+    border: 1px solid black;
+}
+#caixa_de_texto textarea{
+    border-color: black;
+}
+form button{
+    background-color: rgba(239, 186, 122, 0.5);
+    border-color: blanchedalmond;
+}
+form button span{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}

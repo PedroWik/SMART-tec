@@ -1,0 +1,17 @@
+#troca button{
+    background-color: rgba(255, 255, 255, 0);
+}
+#troca span{
+    background-color: rgba(255, 255, 255, 0.509);
+    border-color: rgba(255, 255, 255, 0.353);
+}
+#post_video table #texto textarea{
+    border-color: rgb(49, 46, 46)
+}
+#post_video table #btn input{
+    background-color: rgb(12, 11, 11);
+    color: white;
+}
+#post_video{
+    background-color: rgb(139, 97, 6);
+}

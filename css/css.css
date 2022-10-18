@@ -1,0 +1,207 @@
+body{
+    margin:auto;
+}
+#cabecalho{
+    width: 100%;
+    height: max-content;
+}
+#cabecalho table#cab {
+    width: 100%;
+    margin-bottom: -2px;
+}
+#cabecalho #cab td{
+    width: 100%;
+    height: max-content;
+}
+#cabecalho #cab td h1{
+    margin: 0px;
+    height: max-content;
+}
+#cabecalho td#academia{
+    text-align: right;
+    margin-right: 4px;    
+}
+#cabecalho #academia a{
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
+}
+#cabecalho #academia a:hover{
+    border: 1px solid white;
+}
+#cabecalho table#pesquisa{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+#cabecalho table#pesquisa input{
+    width: 100%;
+}
+#cabecalho table#pesquisa h1{
+    margin: 0px;
+    width: max-content;
+    font-size: 16pt;
+}
+#cabecalho table#pesquisa td{
+    width: max-content;
+    padding: 0px;
+}
+#cabecalho ul{
+    position: relative;
+    width: max-content;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 3px;
+    padding: 0px;    
+}
+#cabecalho ul li{
+    display: inline-block;
+    margin: auto;
+    padding: 3px;
+    margin-bottom: 2px;
+
+}
+#cabecalho ul li:hover{
+    display: inline-block;
+    padding: 3px;
+}
+#cabecalho ul li a{
+    text-decoration: none;
+}
+#cabecalho_index{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+#cabecalho_index a{
+    font-size: 13pt;
+}
+.corpo{
+    text-align: center;    
+}
+.corpo form{
+    margin: auto;
+    width: max-content;
+    width: 45%;
+}
+.corpo form input#btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+}
+.corpo form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+}
+#corpo_pbl{
+    width: 96%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+#corpo #esquerdo{   
+    width: max-content;
+    display: block;
+    margin: auto;
+}
+#corpo_pbl table.int{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 10pt;
+}
+#corpo_pbl .int button{
+    border: none;
+}
+#corpo_pbl .int .pk{
+    width: 45px;
+}
+#corpo_pbl #nome span{
+    margin-bottom: 5px;
+}
+#corpo_comentario table{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    font-size: 10pt;    
+}
+#corpo #direito{
+    margin: auto;
+    width: max-content;
+    max-width: 95%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px;
+}
+#corpo #direito textarea{
+    width: 99%;
+}
+#direito a{
+    text-decoration: none;
+}
+footer#rodape p {
+	text-align: center;
+	font-size: 11pt;
+	margin: 0px;	
+} 
+footer#rodape {
+    clear: both;
+    padding: 16px;
+    float: bottom;
+}
+.link{
+    padding: 0px;
+    height: 0px;
+    border: none;
+    width: max-content;
+    font-size: 12pt;
+    color: rgb(3, 24, 113);
+    text-transform: none;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(40, 40, 201);
+    background-color: rgba(0, 0, 0, 0.083);
+}
+.link2{
+    padding: 0px;
+    height: 0px;
+    border: none;
+    width: max-content;
+    font-size: 11pt;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    text-decoration: none;
+}
+.link3-1{
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.476);
+    padding: 3px;
+    margin: auto;
+}
+.link3{
+    padding: 0px;
+    height: 0px;
+    border: none;
+    font-size: 11pt;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    text-decoration: none;
+}
+@media (max-width: 500px) {
+    #corpo #esquerdo{   
+        width: 74%;
+        display: block;
+        margin: auto;
+    }
+}

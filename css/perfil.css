@@ -1,0 +1,46 @@
+#info{
+    height: 155px;
+    width: 97%;
+    border-bottom: 1px solid black;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#esquerda{
+    float: left;
+    width: 30%;
+    height: 160px;
+    display: block;
+}
+#esquerda img{
+    width: 110px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+#esquerda input{
+    margin: 0px;
+    width: 110;
+}
+#esquerda form{
+    width: max-content;
+    height: max-content;
+}
+#direita{
+    float: right;
+    width: 67%;
+    display: block;
+}
+#direita #nomeu{
+    font-size: 13pt;
+    border-radius: 4px;
+    padding: 4px;
+}
+#area_publicar{
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+#area_publicar div{
+    width: max-content;
+}

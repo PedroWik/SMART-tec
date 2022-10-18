@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(30, 29, 29);
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: block;
+    position: fixed;
+    width: 21%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    border:1px solid;
+    border-color: rgb(5, 187, 2);
+    background-color: black;
+    border-radius: 5px;
+}
+nav img{
+    width: 80px;
+    height: 100px;
+    border-radius: 50%;
+    border:1px solid;
+    border-color: rgb(5, 187, 2);
+    margin: auto;
+}
+nav ul{
+    margin: 4px;
+    padding: 0px;
+}
+nav li{
+    margin: 25px;
+    margin-left: 0px;
+    background-color: rgb(5, 187, 2);
+    margin-right: 0px;
+    padding: 2px;
+}
+nav li:hover{
+    background-color: rgb(3, 60, 2);
+}
+nav a{
+    color: black;
+    text-decoration: dotted;
+}
+div#main{
+    float: right;
+    width: 78%;
+}
+aside {
+	float: right;
+	width: 50%;
+	display: block;
+}
+section {
+	float: left;
+	display: block;
+	width: 49%;
+}

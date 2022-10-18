@@ -1,0 +1,76 @@
+#user_dest{
+    width: max-content;
+    margin: auto;
+    border-radius: 10%;
+    padding: 5px;
+}
+#user_dest #img img{
+    width: 70px;
+    border-radius: 50%;
+}
+#user_dest div#img{
+    width: max-content;
+    margin: auto;
+}
+#user_dest p{
+    font-size: 14pt;
+    margin-top: -2px;
+    margin: auto;
+}
+#conversa{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+#conversa #data{
+    font-size: 7pt;
+    margin-top: -10px;
+}
+#conversa p{
+    font-size: 13pt;
+}
+#esquerda{
+    margin-top: 6px;
+    padding-left: 5px;
+    float: left;
+    width: 65%;
+}
+#direita{
+    margin-top: 6px;
+    padding-left: 5px;
+    float: right;
+    width: 65%;
+}
+.sms{
+    border-radius: 4px;
+}
+#caixa_de_texto{
+    width: 50%;
+    margin: auto;
+    padding: 7px;
+    padding-top: 30px;
+    border-radius: 2%;
+}
+#caixa_de_texto textarea{
+    margin-top: 6px;
+    border-radius: 10%;
+    width: 100%;
+}
+form button{
+    width: 50%;
+    text-align: left;
+    border: solid;
+    margin-top: 10px;
+    margin: 6px;
+    margin-bottom: 0px;
+}
+form button p{
+    width: 100%;
+}
+form button span{
+    float: right;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 2px;
+}

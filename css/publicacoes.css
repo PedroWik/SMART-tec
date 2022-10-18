@@ -1,0 +1,25 @@
+
+#comentarios{
+    box-sizing: border-box;
+    position: relative;
+    height: max-content;
+    margin-bottom: 40%;
+    width: 100%;
+}
+#corpo_comentario{
+    margin: auto;
+    width: 80%;
+    margin-top: 5px;
+}
+#corpo_comentario .texto{
+    width: 100%;
+    margin: 6px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#comentar{
+    position: fixed;
+    height: 19%;
+    top: 81%;
+    width: 100%;
+}

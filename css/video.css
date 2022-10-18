@@ -1,0 +1,80 @@
+#corpo_video{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+#corpo_video #legenda{
+    border-radius: 5px;
+    margin: 1px;
+    margin-bottom: 0px;
+}
+#corpo_video #video{
+    width: 99%;
+    height: 70%;
+    margin: 2px;
+}
+#troca{
+    width: max-content;
+    margin: auto;
+}
+#troca button{
+    border: none;
+    font-size: medium;
+}
+#troca span{
+    border-radius: 4px;
+    font-size: larger;
+    border: solid;
+}
+#post_video table{
+    width: 100%;
+}
+#post_video table #texto textarea{
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+}
+#post_video .file{
+    width: 65%;
+}
+#post_video table #btn input{
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+#post_video{
+    width: 98%;
+    margin: auto;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+@media (max-width: 500px) {
+    #corpo_video{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    #post_video form{
+        width: max-content;
+    }
+    #post_video table{
+        width: 100%;
+    }
+    #post_video table #texto textarea{
+        width: 100%;
+        height: 40px;
+        border-radius: 4px;
+    }
+    #post_video table #btn input{
+        width: 100%;
+        height: 30px;
+        border: none;
+    }
+}

@@ -1,0 +1,31 @@
+#usuarios{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2px;
+}
+#usuarios td.nomep{
+    width: 60%;
+}
+#usuarios button{
+    height: 23px;
+}
+#img{
+    width: 41px;
+}
+#img img{
+    height: 50px;
+    border-radius: 50%;
+    width: 40px;
+}
+#nome{
+    height: max-content;
+}
+#nome p{
+    margin: -1px;
+}
+#nome input{
+    font-size: 11pt;
+    display: inline-block;
+    border-radius: 3px;
+}

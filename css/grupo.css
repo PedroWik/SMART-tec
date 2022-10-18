@@ -1,0 +1,64 @@
+#cabecalho_grupo{
+
+}
+#cabecalho_grupo #img{
+    width: 40%;
+    margin: auto;
+}
+#cabecalho_grupo #img img{
+    width: 40%;
+    border-radius: 40%;
+}
+#cabecalho_grupo #nomeg{
+    width: max-content;
+    font-size: 15pt;
+    margin: auto;
+}
+button{
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 3px;
+}
+#inicio #direita{
+    float: right;
+    width: 48%;
+    clear: both;
+}
+#inicio #esquerda{
+    float: left;
+    width: 50%;
+}
+div#nome{
+    border: 1px solid white;
+    width: 80%;
+    margin-bottom: 10px;
+    margin: auto;
+}
+#nome p{
+    text-align: center;
+}
+#nome input{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+#descricao{
+    margin: 10px;
+}
+#outros{
+    margin: 10px;
+}
+#btn_criar{
+    margin: auto;
+    width: 30%;
+}
+#btn_criar input{
+    width: 100%;
+    height: 45px;
+    font-size: 16pt;
+    border: none;
+}
+#usuarios img{
+    width: 35px;
+}

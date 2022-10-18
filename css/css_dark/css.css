@@ -1,0 +1,102 @@
+body{
+    margin:auto;
+    background-color: rgb(34, 33, 31);
+    color: white;
+}
+#cabecalho{
+    background-color: rgb(16, 15, 15);
+    width: 100%;
+    height: max-content;
+    border-bottom:1px solid rgb(16, 15, 15);
+}
+#cabecalho h1{
+    color: white;
+}
+#cabecalho table#cab {
+    width: 100%;
+    margin-bottom: -2px;
+}
+#cabecalho #cab td{
+    width: 100%;
+}
+#cabecalho td#academia{
+    text-align: right;
+    margin-right: 4px;    
+}
+#cabecalho #academia a{
+    color: rgba(0, 0, 0, 0.554);
+    background-color: rgba(255, 228, 196, 0.535);
+    border: 1px solid rgba(0, 0, 0, 0.534);
+}
+#cabecalho #academia a:hover{
+    background-color: #dd9d2d;
+    color: aliceblue;
+}
+#cabecalho table#pesquisa{
+    background-color: white;
+    color: black;
+}
+#cabecalho ul li{
+    background-color: rgb(21, 22, 21);
+    color: white;
+    border: 1px solid rgb(21, 22, 21);
+
+}
+#cabecalho ul li:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+#cabecalho ul li a{
+    color: rgb(255, 255, 255);
+}
+#cabecalho_index{
+    background-color: rgb(139, 97, 6);
+}
+#cabecalho_index a{
+    color: white;
+}
+.corpo{
+    color: rgb(139, 97, 6);    
+}
+.corpo form input#btn{
+    border-color: rgb(139, 97, 6);
+}
+.corpo form input{
+    border-color: rgb(139, 97, 6);
+}
+#corpo_pbl{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#corpo_pbl table.int{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#corpo_pbl .int button{
+    background-color: rgba(240, 255, 255, 0.057);
+    color: white;
+}
+#corpo_comentario table{
+    background-color: rgb(170, 147, 99); 
+}
+#corpo #direito{
+    margin: auto;
+    background-color: rgb(16, 15, 15);;
+    border: 1px solid rgb(16, 15, 15);
+}
+#direito a{
+    color: white;
+} 
+ footer#rodape a {
+    color: rgb(79, 78, 78);
+ } 
+button.link{
+    background-color: #ffffff00;
+    color: blue;
+}
+button.link:hover{
+    color: rgb(56, 56, 128);
+}
+.link3{
+    color: rgb(255, 255, 255);
+}

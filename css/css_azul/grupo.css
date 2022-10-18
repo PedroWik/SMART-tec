@@ -1,0 +1,22 @@
+
+button{
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.449);    
+    color: azure;
+}
+#inicio #direita{
+    border-left: 1px solid rgb(209, 209, 24);
+}
+div#nome{
+    border: 1px solid white;
+}
+#btn_criar input{
+    background-color: rgb(42, 22, 2);
+    color: rgb(255, 255, 255);
+}
+#btn_criar input:hover{
+    background-color: rgb(154, 114, 79);
+    color: rgb(0, 0, 0);
+}

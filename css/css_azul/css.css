@@ -1,0 +1,93 @@
+body{
+    margin:auto;
+    background-color: rgb(73, 115, 199);
+}
+#cabecalho{
+    background-color: rgb(1, 36, 91);
+    color: white;
+    width: 100%;
+    height: max-content;
+    border-bottom:1px solid rgb(1, 36, 91);
+}
+#cabecalho table#cab {
+    width: 100%;
+    margin-bottom: -2px;
+}
+#cabecalho #cab td{
+    width: 100%;
+}
+#cabecalho td#academia{
+    text-align: right;
+    margin-right: 4px;    
+}
+#cabecalho #academia a{
+    color: rgba(0, 0, 0, 0.554);
+    background-color: rgba(255, 228, 196, 0.535);
+    border: 1px solid rgba(0, 0, 0, 0.534);
+}
+#cabecalho #academia a:hover{
+    background-color: #dd9d2d;
+    color: aliceblue;
+}
+#cabecalho table#pesquisa{
+    background-color: white;
+}
+#cabecalho ul li{
+    background-color: rgb(73, 115, 199);
+    border: 1px solid rgb(1, 36, 91);
+
+}
+#cabecalho ul li:hover{
+    background-color: rgb(1, 36, 91);
+    border: 1px solid rgb(1, 36, 91);
+}
+#cabecalho ul li a{
+    color: rgb(255, 255, 255);
+}
+#cabecalho_index{
+    background-color: rgb(139, 97, 6);
+}
+#cabecalho_index a{
+    color: white;
+}
+.corpo{
+    color: rgb(139, 97, 6);    
+}
+.corpo form input#btn{
+    border-color: rgb(139, 97, 6);
+}
+.corpo form input{
+    border-color: rgb(139, 97, 6);
+}
+#corpo_pbl{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#corpo_pbl table.int{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#corpo_pbl .int button{
+    background-color: rgba(240, 255, 255, 0.057);
+    color: white;
+}
+#corpo_comentario table{
+    background-color: rgb(170, 147, 99); 
+}
+#corpo #direito{
+    margin: auto;
+    background-color: rgb(1, 36, 91);;
+    border: 1px solid rgb(1, 37, 97);
+}
+#direito a{
+    color: white;
+} 
+ footer#rodape a {
+    color: rgb(45, 44, 44);
+ } 
+button.link{
+    background-color: #ffffff00;
+    color: blue;
+}
+button.link:hover{
+    color: rgb(56, 56, 128);
+}

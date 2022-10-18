@@ -1,0 +1,10 @@
+#info{
+    border-bottom: 1px solid black;
+}
+#esquerda img{
+    border: 1px solid black;
+}
+#direita #nomeu{
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
